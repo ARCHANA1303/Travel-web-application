@@ -1,0 +1,787 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GOL - Travel agancy</title>
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./components/css/style.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&family=Poppins:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+</head>
+
+<body class="home__body" id="top">
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+
+
+    <div class="header-top">
+      <!-- <div class="container">
+
+        <a href="tel:+01123456790" class="helpline-box">
+
+          <div class="icon-box">
+            <ion-icon name="call-outline"></ion-icon>
+          </div>
+
+          <div class="wrapper">
+            <p class="helpline-title">For Further Inquires :</p>
+
+            <p class="helpline-number">+01 (123) 4567 90</p>
+          </div>
+
+        </a>
+
+        
+      </div>
+    </div> -->
+
+    <div class="header-bottom">
+      <div class="container">
+        <h1 class="social-list">GOL</h1>
+
+        <nav class="navbar" data-navbar>
+
+          <div class="navbar-top">
+
+            <!-- <a href="#" class="logo">
+              <img src="./components/images/logo-blue.svg" alt="">
+            </a> -->
+            
+
+            <button class="nav-close-btn" aria-label="Close Menu" data-nav-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+          </div>
+
+          <ul class="navbar-list">
+
+            <li>
+              <a href="#home" class="navbar-link" data-nav-link>Find Reservation</a>
+            </li>
+
+            <li>
+              <a href="#" class="navbar-link" data-nav-link>about us</a>
+            </li>
+
+            <li>
+              <a href="#destination" class="navbar-link" data-nav-link>destination</a>
+            </li>
+
+            <li>
+              <a href="#package" class="navbar-link" data-nav-link>packages</a>
+            </li>
+
+            <li>
+              <a href="#gallery" class="navbar-link" data-nav-link>gallery</a>
+            </li>
+
+            <li>
+              <a href="#contact" class="navbar-link" data-nav-link>Support us</a>
+            </li>
+
+          </ul>
+
+        </nav>
+        <div class="btn-group">
+          <button class="btn btn-primary">Login</button>
+          <button class="btn btn-primary">Sign Up</button>
+        </div>
+        <button class="nav-open-btn" aria-label="Open Menu" data-nav-open-btn>
+          <ion-icon name="menu-outline"></ion-icon>
+        </button>
+        
+      </div>
+    </div>
+
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="hero" id="home">
+        <div class="container">
+          <h2 class="h1 hero-title">The Exotic Lakshadeep Islands</h2>
+          <button class="btn btn-primary">Book now</button>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #TOUR SEARCH
+      -->
+
+      <section class="tour-search">
+        <div class="container">
+
+          <form action="" class="tour-search-form">
+
+            <div class="input-wrapper">
+              <label for="destination" class="input-label">Search Destination*</label>
+
+              <input type="text" name="destination" id="destination" required placeholder="Enter Destination"
+                class="input-field">
+            </div>
+
+            <div class="input-wrapper">
+              <label for="people" class="input-label">Pax Number*</label>
+
+              <input type="number" name="people" id="people" required placeholder="No.of People" class="input-field">
+            </div>
+
+            <div class="input-wrapper">
+              <label for="checkin" class="input-label">Checkin Date**</label>
+
+              <input type="date" name="checkin" id="checkin" required class="input-field">
+            </div>
+
+            <div class="input-wrapper">
+              <label for="checkout" class="input-label">Checkout Date*</label>
+
+              <input type="date" name="checkout" id="checkout" required class="input-field">
+            </div>
+
+            <button type="submit" class="btn btn-primary">Show Flights</button>
+
+          </form>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #POPULAR
+      -->
+
+      <section class="popular" id="destination">
+        <div class="container">
+          <h2 class="h2 section-title">Best Packages For You</h2>
+
+          <p class="section-text">
+            This is a unique experience on ship,sea and land, exploring different coral islands on Lakshadweep.
+          </p>
+          <div class="btn-group1">
+            <button class="btn btn-primary">Maldives</button>
+            <button class="btn btn-secondary">Samudram</button>
+            <button class="btn btn-secondary">Cordelia</button>
+            <button class="btn btn-secondary">Agatti</button>
+            <button class="btn btn-secondary">More</button>
+          </div>
+          
+          
+
+
+          <ul class="popular-list">
+
+            <li>
+              <div class="popular-card">
+
+                <figure class="card-img">
+                  <img src="./components/images/popular-1.jpg" alt="San miguel, italy" loading="lazy">
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="card-rating">
+                    <ion-icon name="star"></ion-icon>
+                    <p>4.5</p>
+                  </div>
+
+                  <p class="card-subtitle">
+                    <a href="#">Italy</a>
+                  </p>
+
+                  <h3 class="h3 card-title">
+                    <a href="#">San miguel</a>
+                  </h3>
+
+                  <p class="card-text">
+                    This is a unique experience on ship,sea and land, exploring different coral islands on Lakshadweep.
+                  </p>
+
+
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="popular-card">
+
+                <figure class="card-img">
+                  <img src="./components/images/popular-2.jpg" alt="Burj khalifa, dubai" loading="lazy">
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="card-rating">
+                    <ion-icon name="star"></ion-icon>
+                    <p>4.5</p>
+                  </div>
+
+                  <p class="card-subtitle">
+                    <a href="#">Dubai</a>
+                  </p>
+
+                  <h3 class="h3 card-title">
+                    <a href="#">Burj khalifa</a>
+                  </h3>
+
+                  <p class="card-text">
+                    This is a unique experience on ship,sea and land, exploring different coral islands on Lakshadweep.
+                  </p>
+
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="popular-card">
+
+                <figure class="card-img">
+                  <img src="./components/images/popular-3.jpg" alt="Kyoto temple, japan" loading="lazy">
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="card-rating">
+                    <ion-icon name="star"></ion-icon>
+                    <p>4.5</p>
+                  </div>
+
+                  <p class="card-subtitle">
+                    <a href="#">Japan</a>
+                  </p>
+
+                  <h3 class="h3 card-title">
+                    <a href="#">Kyoto temple</a>
+                  </h3>
+
+                  <p class="card-text">
+                    This is a unique experience on ship,sea and land, exploring different coral islands on Lakshadweep.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+          <div class="card-rating1">
+            <ion-icon name="star"></ion-icon>
+            <ion-icon name="star"></ion-icon>
+            <ion-icon name="star"></ion-icon>            
+          </div>
+
+          <!-- <button class="btn btn-primary">Book Now</button> -->
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #PACKAGE
+      -->
+
+      <section class="package" id="package">
+        <div class="container">
+
+          <h2 class="h2 section-title">Island Stays</h2>
+
+          <p class="section-text">
+            This is a unique experience on ship,sea and land, exploring different coral islands on Lakshadweep.
+          </p>
+
+          <ul class="popular-list">
+
+            <li>
+              <div class="popular-card">
+
+                <figure class="card-img">
+                  <img src="./components/images/popular-1.jpg" alt="San miguel, italy" loading="lazy">
+                </figure>
+
+                <div class="card-content">
+
+                  <p class="card-subtitle">
+                    <a href="#">Italy</a>
+                  </p>
+
+                  <h3 class="h3 card-title">
+                    <a href="#">San miguel</a>
+                  </h3>
+
+                  <p class="card-text">
+                    This is a unique experience on ship,sea and land, exploring different coral islands on Lakshadweep.
+                  </p>
+                  
+                  <div class="ratings">
+                    <div class="ratings1">
+                      <ion-icon name="star"></ion-icon>
+                      <p>4.5 (1.5k Review)</p>
+                    </div>
+                    
+                    <button class="btn1 btn-primary">Book Now</button>
+                    
+                  </div>
+
+
+
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="popular-card">
+
+                <figure class="card-img">
+                  <img src="./components/images/popular-2.jpg" alt="Burj khalifa, dubai" loading="lazy">
+                </figure>
+
+                <div class="card-content">
+
+                  <p class="card-subtitle">
+                    <a href="#">Dubai</a>
+                  </p>
+
+                  <h3 class="h3 card-title">
+                    <a href="#">Burj khalifa</a>
+                  </h3>
+
+                  <p class="card-text">
+                    This is a unique experience on ship,sea and land, exploring different coral islands on Lakshadweep.
+                  </p>
+                  <div class="ratings">
+                    <div class="ratings1">
+                      <ion-icon name="star"></ion-icon>
+                      <p>4.5 (1.5k Review)</p>
+                    </div>
+                    
+                    <button class="btn1 btn-primary">Book Now</button>
+                    
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="popular-card">
+
+                <figure class="card-img">
+                  <img src="./components/images/popular-3.jpg" alt="Kyoto temple, japan" loading="lazy">
+                </figure>
+
+                <div class="card-content">
+                  <p class="card-subtitle">
+                    <a href="#">Japan</a>
+                  </p>
+
+                  <h3 class="h3 card-title">
+                    <a href="#">Kyoto temple</a>
+                  </h3>
+
+                  <p class="card-text">
+                    This is a unique experience on ship,sea and land, exploring different coral islands on Lakshadweep.
+                  </p>
+                  <div class="ratings">
+                    <div class="ratings1">
+                      <ion-icon name="star"></ion-icon>
+                      <p>4.5 (1.5k Review)</p>
+                    </div>
+                    
+                    <button class="btn1 btn-primary">Book Now</button>
+                    
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+          <ul class="popular-list">
+
+            <li>
+              <div class="popular-card">
+
+                <figure class="card-img">
+                  <img src="./components/images/popular-1.jpg" alt="San miguel, italy" loading="lazy">
+                </figure>
+
+                <div class="card-content">
+                  <p class="card-subtitle">
+                    <a href="#">Italy</a>
+                  </p>
+
+                  <h3 class="h3 card-title">
+                    <a href="#">San miguel</a>
+                  </h3>
+
+                  <p class="card-text">
+                    This is a unique experience on ship,sea and land, exploring different coral islands on Lakshadweep.
+                  </p>
+                  <div class="ratings">
+                    <div class="ratings1">
+                      <ion-icon name="star"></ion-icon>
+                      <p>4.5 (1.5k Review)</p>
+                    </div>
+                    
+                    <button class="btn1 btn-primary">Book Now</button>
+                    
+                  </div>
+
+
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="popular-card">
+
+                <figure class="card-img">
+                  <img src="./components/images/popular-2.jpg" alt="Burj khalifa, dubai" loading="lazy">
+                </figure>
+
+                <div class="card-content">
+                  <p class="card-subtitle">
+                    <a href="#">Dubai</a>
+                  </p>
+
+                  <h3 class="h3 card-title">
+                    <a href="#">Burj khalifa</a>
+                  </h3>
+
+                  <p class="card-text">
+                    This is a unique experience on ship,sea and land, exploring different coral islands on Lakshadweep.
+                  </p>
+                  <div class="ratings">
+                    <div class="ratings1">
+                      <ion-icon name="star"></ion-icon>
+                      <p>4.5 (1.5k Review)</p>
+                    </div>
+                    
+                    <button class="btn1 btn-primary">Book Now</button>
+                    
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="popular-card">
+
+                <figure class="card-img">
+                  <img src="./components/images/popular-3.jpg" alt="Kyoto temple, japan" loading="lazy">
+                </figure>
+
+                <div class="card-content">
+                  <p class="card-subtitle">
+                    <a href="#">Japan</a>
+                  </p>
+
+                  <h3 class="h3 card-title">
+                    <a href="#">Kyoto temple</a>
+                  </h3>
+
+                  <p class="card-text">
+                    This is a unique experience on ship,sea and land, exploring different coral islands on Lakshadweep.
+                    
+                  </p>
+                  <div class="ratings">
+                    <div class="ratings1">
+                      <ion-icon name="star"></ion-icon>
+                      <p>4.5 (1.5k Review)</p>
+                    </div>
+                    
+                    <button class="btn1 btn-primary">Book Now</button>
+                    
+                  </div>
+                  
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+          
+
+
+
+          <button class="btn btn-primary">View All Packages</button>
+
+        </div>
+      </section>
+
+      <section class="cta" id="contact">
+        <div class="container">
+
+          <div class="cta-content">
+            <h2 class="h2 section-title">Let's Ready to Explore The World With Us.</h2>
+
+            <p class="section-text">
+              This is a unique experience on ship,sea and land, exploring different coral islands on Lakshadweep.
+            </p>
+          </div>
+
+          <button class="btn btn-secondary">Contact Us</button>
+
+        </div>
+      </section>
+
+    
+
+      
+
+
+      <section class="package" id="package">
+        <div class="container">
+
+          <h2 class="h2 section-title">What Our Clients Says<br>About Us</h2>
+
+          <ul class="popular-list">
+
+            <li>
+              <div class="popular-card">
+
+                <figure class="card-img">
+                  <img src="./components/images/popular-1.jpg" alt="San miguel, italy" loading="lazy">
+                </figure>
+
+                <div class="card-content">
+                  <p class="card-subtitle">
+                    <a href="#">India</a>
+                  </p>
+
+                  <h3 class="h3 card-title">
+                    <a href="#">Harshvardhan Rane</a>
+                  </h3>
+
+                  <p class="card-text">
+                    This is a unique experience on ship,sea and land, exploring different coral islands on Lakshadweep.
+                  </p>
+
+                  <div class="ratings2">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+
+                  </div>
+
+
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="popular-card">
+
+                <figure class="card-img">
+                  <img src="./components/images/popular-2.jpg" alt="Burj khalifa, dubai" loading="lazy">
+                </figure>
+
+                <div class="card-content">
+
+                  <p class="card-subtitle">
+                    <a href="#">South Korea</a>
+                  </p>
+
+                  <h3 class="h3 card-title">
+                    <a href="#">Kim Namjoon</a>
+                  </h3>
+
+                  <p class="card-text">
+                    This is a unique experience on ship,sea and land, exploring different coral islands on Lakshadweep.
+                  </p>
+                  <div class="ratings2">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="popular-card">
+
+                <figure class="card-img">
+                  <img src="./components/images/popular-3.jpg" alt="Kyoto temple, japan" loading="lazy">
+                </figure>
+
+                <div class="card-content">
+
+                 
+
+                  <p class="card-subtitle">
+                    <a href="#">Turkey</a>
+                  </p>
+
+                  <h3 class="h3 card-title">
+                    <a href="#">Can Yaman</a>
+                  </h3>
+
+                  <p class="card-text">
+                    This is a unique experience on ship,sea and land, exploring different coral islands on Lakshadweep.
+                  </p>
+                  <div class="ratings2">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+        </div>
+      </section>
+
+
+      <!-- 
+        - #CTA
+      -->
+
+      
+
+    </article>
+  </main>
+
+
+
+
+
+    <!-- 
+      - #FOOTER
+    -->
+
+    <footer class="footer__section">
+      <div class="footer__container bd-grid">
+          <div class="footer__box">
+              <h3 class="heading3 footer__title">GOL</h3>
+          <p class="footer__deal">Lorem ipsum dolor sit amet consectetur adipisicing</p>
+          </div>
+          <div class="footer__box">
+              <h3 class="heading3 footer__title">Company</h3>
+              <ul class="list">
+                  <li><a href="#" class="footer__link">Event</a></li>
+                  <li><a href="#" class="footer__link">Blogs</a></li>
+                  <li><a href="#" class="footer__link">FAQ</a></li>
+                  <li><a href="#" class="footer__link">Join Us</a></li>
+              </ul>
+          </div>
+
+          <div class="footer__box">
+              <h3 class="heading3 footer__title">About</h3>
+              <ul class="list">
+                  <li><a href="#" class="footer__link">Project</a></li>
+                  <li><a href="#" class="footer__link">Lorem</a></li>
+                  <li><a href="#" class="footer__link">Services</a></li>
+                  <li><a href="#" class="footer__link">Our Story</a></li>
+              </ul>
+          </div>
+
+          <div class="footer__box">
+              <h3 class="heading3 footer__title">Contact Us</h3>
+              <ul class="list">
+                <li><a href="#" class="footer__link">abc@gmail.com</a></li>
+                <li><a href="#" class="footer__link">India</a></li>
+            </ul>
+
+              
+          </div>
+      </div>
+
+      <p class="footer__copy">Copyrights @ 2020 GOL Travels Private Limited.All Rights Reserverd.</p>
+  </footer>
+
+
+
+
+
+  <!-- 
+    - #GO TO TOP
+  -->
+
+  <a href="#top" class="go-top" data-go-top>
+    <ion-icon name="chevron-up-outline"></ion-icon>
+  </a>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./components/js/script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
